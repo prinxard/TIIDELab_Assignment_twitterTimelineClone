@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.fa-twitter {
+    color: rgba(73, 150, 163, 0.849);
+}
+
+.fa-home {
+    color: rgba(73, 150, 163, 0.849);
+}
+.fa-star{
+    margin-left: 500px;
+}
+.fa-cog{
+    padding-left: 60%;
+    padding-top: 7px;
+
+}
+.tweets{
+    margin-top: 10px;
+}
+.trends{
+    margin-top: 20px;
+    background-color: rgb(226, 224, 224);
+    width: 80%;
+    border-radius: 10px;
+}
+.who-to-follow{
+        margin-top: 20px;
+        background-color: rgb(226, 224, 224);
+        width: 80%;
+        border-radius: 10px;
+}
+.tren{
+    padding: 7px;
+}
+.show-more{
+    margin-bottom: 10px;
+    color: #1da1f2;
+}
+.trending{
+    padding-left: 15px;
+}
+.whoto{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    float: left;
+}
+.twit1{
+    border-radius: 100%;
+    float: left;
+    height: 64px;
+    width: 64px;
+    margin: 10px;
+}
+.twit2{
+    align-content: center;
+    width: 80%;
+    border-radius: 20px;
+}
+.retweet{
+    margin-left: 70px;
+}
+.tweet-btn{
+    width: 15%;
+    margin-left: 300px;
+}
+.side{
+    width: 100%;
+    height: 50px;
+
+}
+button {
+    border-radius: 100px;
+    border: none;
+    background-color: #1da1f2;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 60%;  
+}
+strong{
+    color:  rgba(73, 150, 163, 0.849);
+}
+
+.sidebar {
+    font-weight: bold;
+    margin-left: 10%;
+    font-size: 1.2em;
+    position: fixed;
+}
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+  .space{
+      background-color: #f8f4fa;
+      width: 100%;
+      height: 10px;
+      margin-top: 10px;
+  }
+  .column2 {
+    float: left;
+    width: 40%;
+    padding: 0px;
+    border-right: solid 1px rgba(73, 150, 163, 0.849);
+    border-left: solid 1px rgba(73, 150, 163, 0.849);
+    height: vh100;
+  }
+  .column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+  textarea{
+      width: 85%;
+      border: none;
+      height: 100px;
+  }
+
+  .first-set{
+      margin-left: 20px;
+      color: #1da1f2;
+      display: inline;
+      
+  }
+  input{
+      border-radius: 100px;
+      width: 80%;
+      height: 40px;
+      background-color: lightgrey;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
